@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel</title>
+    <title>Tranquil Hotels</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -16,6 +16,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     </link>
 
 <body>
@@ -26,11 +27,11 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
                 <ul>
-                    <li> <a href=""> Home </a> </li>
-                    <li> <a href=""> Services </a> </li>
-                    <li> <a href=""> Loyality Program </a> </li>
-                    <li> <a href=""> About </a> </li>
-                    <!-- <li> <a href=""> Blog </a> </li> -->
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="services.html"> Services </a> </li>
+                    <li> <a href="loyalty.html"> Loyalty Program </a> </li>
+                    <li> <a href="about.html"> About </a> </li>
+                    <!-- <li> <a href="contact.html"> Contact </a> </li> -->
                 </ul>
             </div>
             <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
@@ -51,7 +52,7 @@
             <h2 class="pb-2 text-center custom-card heading custom-heading">Unforgettable Moments Await</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pt-5">
-                <div class="col">
+                <div class="col card-container">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./images/food.jpg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -60,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col card-container">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./images/room.jpg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -69,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col card-container">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./images/restaurant.png');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
@@ -83,7 +84,7 @@
         <div class="container px-4 pb-5 pt-4" id="custom-cards">
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pb-5">
-                <div class="col">
+                <div class="col card-container">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./images/service.jpeg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -92,7 +93,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col card-container">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./images/pool.png');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -101,7 +102,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col card-container">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./images/spa.jpg');">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
@@ -189,6 +190,12 @@
 
                 <p class="text-center mb-0">1234 Tranquil Street,</p>
                 <p class="text-center ">Cityville, State, Country - 12345</p>
+
+                <div class="contact-details">
+                    <a href="mailto:info@example.com"><i class="fas fa-envelope"></i> TranquilHotel@gmail.com</a>
+                    <a href="tel:+1234567890"><i class="fas fa-phone"></i> +1234567890</a>
+                </div>
+
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                     <a href="https://www.facebook.com"><i class="fab fa-facebook px-2 fac"></i></a>
                     <a href="https://www.twitter.com"><i class="fab fa-twitter px-2"></i></a>
